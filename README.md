@@ -1,6 +1,8 @@
 # DCFcluster
 
 DCFcluster is a Python library for implementing the Density Core Finding (DCF) clustering method.
+![Demo of the DCF Method](./Mixtures.png)
+
 
 ## Set Up
 
@@ -21,6 +23,9 @@ from DCFcluster import DCFcluster
 result = DCFcluster.train(X, k, beta)
 ```
 The returned object contains the computed values for the peak-finding criterion (peak_values), the indices of points belonging to the cluster cores (core_sets) and the final clustering of the data (labels). 
+
+![DCF Applied to Synthetic Datasets](./DCF_Synthetic.png)
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
