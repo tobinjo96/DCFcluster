@@ -26,6 +26,11 @@ The returned object contains the computed values for the peak-finding criterion 
 
 ![DCF Applied to Synthetic Datasets](./DCF_Synthetic.png)
 
+To replicate the experiments included in 'DCF: An Efficient and Robust Density-Based Clustering Method', run the following:
+```bash 
+python3 download_data.py
+python3 run_downloaded.py
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
