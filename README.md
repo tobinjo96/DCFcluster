@@ -1,6 +1,9 @@
 # DCFcluster
 
 DCFcluster is a Python library for implementing the Density Core Finding (DCF) clustering method.
+
+Tobin J, Zhang M. (2021) DCF: An Efficient and Robust Density-Based Clustering Methods. DOI 10.1109/ICDM51629.2021.00074 (To appear in ICDM 2021)
+
 ![Demo of the DCF Method](./Mixtures.png)
 
 
