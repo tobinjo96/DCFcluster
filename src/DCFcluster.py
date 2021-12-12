@@ -81,6 +81,7 @@ class DCFcluster:
               break
           distances = [dis_pair for dis_list in distances for dis_pair in dis_list]
           argmin_distance = [np.argmin(l) for l in distances]
+          pool.close()
           pool.terminate()
         except Exception as e:
           print("POOL ERROR: "+ e)
